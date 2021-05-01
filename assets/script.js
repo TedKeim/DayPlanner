@@ -1,5 +1,4 @@
-$("#currentDay").text(moment().format("Do, MMMM, YYYY, h:mm a"));
-
+$("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a'));
 var text1 = $("#text1");
 var text2 = $("#text2");
 var text3 = $("#text3");
@@ -40,7 +39,7 @@ text9.append(localStorage.getItem("5PM"));
 
 
 const rows = document.getElementsByClassName("row");
-let currentHour = parseInt(moment().format('h'));
+let currentHour = parseInt(moment().format('H'));
 
 Array.from(rows).forEach(row =>{
     let
@@ -52,7 +51,7 @@ Array.from(rows).forEach(row =>{
     if (rowHour){
         if (currentHour === rowHour){
             setColor(row, "red");
-        } else if ((currentHour < rowHour) && (currentHour >= rowHour-12)){
+        } else if ((currentHour < rowHour) && (currentHour >= rowHour-7)){
             setColor(row, "green");
         } else{
         setColor(row, "lightgrey");
