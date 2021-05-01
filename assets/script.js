@@ -1,4 +1,5 @@
 $("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a'));
+
 var text1 = $("#text1");
 var text2 = $("#text2");
 var text3 = $("#text3");
