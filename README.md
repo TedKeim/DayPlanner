@@ -18,3 +18,8 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
+<img width="1238" alt="Screen Shot 2021-05-01 at 12 59 44 PM" src="https://user-images.githubusercontent.com/76973037/116789571-74ac1280-aa7d-11eb-8a37-fc7f5b2ad279.png">
+
+<img width="1170" alt="Screen Shot 2021-05-01 at 1 01 44 PM" src="https://user-images.githubusercontent.com/76973037/116789580-7fff3e00-aa7d-11eb-9567-4cfff7a90949.png">
+
+This is the link to the deployed application: https://tedkeim.github.io/DayPlanner/
