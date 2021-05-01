@@ -12,3 +12,9 @@ var text17 = $("#text17");
 var resetBtn = $('#clear');
 const textContent = document.getElementsByClassName('content');
 var saveBtn = $('.row').children('.btn');
+
+
+const rows = document.getElementsByClassName("row");
+let currentHour = parseInt(moment().format('H'));
+
+
